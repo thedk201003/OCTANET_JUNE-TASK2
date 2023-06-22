@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+
+h1 {
+  color: #333;
+}
+
+#taskInput {
+  padding: 5px;
+  width: 300px;
+}
+
+#addTaskButton {
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#taskList {
+  width: 400px;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+#taskList th,
+#taskList td {
+  padding: 8px;
+}
+
+#taskList th {
+  background-color: #f2f2f2;
+}
+
+#taskList td.actions {
+  text-align: center;
+}
+
+.edit-button,
+.delete-button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.edit-button {
+  margin-right: 5px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+}
